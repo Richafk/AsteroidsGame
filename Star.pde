@@ -6,7 +6,7 @@ class Star //note that this class does NOT extend Floater
  		myY=(int)(Math.random()*750);
  	}
  	public void show(){
- 		fill(20);
+ 		fill(50);
  		ellipse(myX,myY,2,2);
  	}
  }
