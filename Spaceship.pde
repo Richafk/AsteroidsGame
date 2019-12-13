@@ -28,3 +28,4 @@ class Spaceship extends Floater
 	public void setPointDirection(double degrees){myPointDirection = degrees;}  
 	public double getPointDirection(){return myPointDirection;}
 }
+

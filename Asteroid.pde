@@ -21,10 +21,20 @@ int rotSpeed=(int)(Math.random()*360);
 	    myCenterX = (Math.random()*600);
 	    myDirectionX = (Math.random()*8-3);
 	    myDirectionY = (Math.random()*8-3);
-
     }
     public void move(){
     	turn(rotSpeed);
     	super.move();
     }
+    public void setX(double x){myCenterX = x;}  
+	public double getX(){return myCenterX;}   
+	public void setY(double y){myCenterY = y;}   
+	public double getY(){return myCenterY;}   
+	public void setDirectionX(double x){myDirectionX = x;}  
+	public double getDirectionX(){return myDirectionX;}   
+	public void setDirectionY(double y){myDirectionY = y;}  
+	public double getDirectionY(){return myDirectionY;}   
+	public void setPointDirection(double degrees){myPointDirection = degrees;}  
+	public double getPointDirection(){return myPointDirection;}
 }
+
