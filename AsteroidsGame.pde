@@ -2,6 +2,7 @@ Spaceship spaceship;
 ArrayList <Asteroid> asterFam;
 ArrayList <bullet> anAkahilladickis = new ArrayList <bullet>();
 Star[] star = new Star[1800];
+
 public void setup() 
 {
   size(700,700);
@@ -14,6 +15,7 @@ public void setup()
     asterFam.add(i,new Asteroid());
   }
 }
+
 public void draw() 
 {
   background(50);
@@ -41,6 +43,7 @@ public void draw()
     spaceship.show();
     spaceship.move();
 }
+
 public void keyPressed(){
   if(key == 'w'){
     spaceship.accelerate(0.5);
